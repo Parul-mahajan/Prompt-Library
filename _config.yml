@@ -38,11 +38,11 @@ nav:
   - title: Best Practices
     children:
       - title: Code Review Best Practices
-        url: /BestPractices/CodeReviewBestPractices/AdherenceToStandards
+        url: /BestPractices/CodeReviewBestPractices/
       - title: Prompt Engineering Best Practices
-        url: /BestPractices/PromptEngineeringBestPractices/CopilotChatPatterns
+        url: /BestPractices/PromptEngineeringBestPractices/
       - title: Security Best Practices
-        url: /BestPractices/SecurityBestPractices/IdentifyingSecurityVulnerabilities
+        url: /BestPractices/SecurityBestPractices/
   - title: Code Optimization
     children:
       - title: Efficiency
