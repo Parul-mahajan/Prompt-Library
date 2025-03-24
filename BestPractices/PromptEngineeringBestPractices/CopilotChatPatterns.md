@@ -1,3 +1,9 @@
+---
+title: Copilot Chat Patterns
+parent: Prompt Engineering Best Practices
+nav_order: 1
+---
+
 # GitHub Copilot Chat Interaction Patterns
 
 ## Effective Question Patterns

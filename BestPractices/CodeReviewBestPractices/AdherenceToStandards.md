@@ -1,3 +1,9 @@
+---
+title: Adherence to Standards
+parent: Code Review Best Practices
+nav_order: 1
+---
+
 # Adherence to Coding Standards
 
 ## Prompt 1: Reviewing Code for Standards

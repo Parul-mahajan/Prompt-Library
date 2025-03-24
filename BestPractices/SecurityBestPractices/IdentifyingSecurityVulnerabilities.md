@@ -1,3 +1,9 @@
+---
+title: Identifying Security Vulnerabilities
+parent: Security Best Practices
+nav_order: 1
+---
+
 # Identifying Security Vulnerabilities
 
 ## Prompt 1: Security Code Review

@@ -1,3 +1,9 @@
+---
+title: Writing Training Scripts
+parent: AI/ML Development
+nav_order: 2
+---
+
 # Writing Training Scripts for GitHub Copilot
 
 ## Prompt 1: Creating Basic Model Training Structure
