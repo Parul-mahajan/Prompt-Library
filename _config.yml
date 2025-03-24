@@ -1,0 +1,41 @@
+title: GitHub Copilot Prompt Library
+description: A comprehensive collection of prompts for different roles in software development
+theme: just-the-docs
+
+url: https://Parul-mahajan.github.io/Prompt-Library
+
+aux_links:
+  "View on GitHub":
+    - "//github.com/Parul-mahajan/Prompt-Library"
+
+# Enable search
+search_enabled: true
+
+# Optimize search engine
+search:
+  # Split pages into sections
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
+
+# Navigation
+nav_external_links:
+  - title: GitHub Repository
+    url: https://github.com/your-username/Prompt-Library
+    hide_icon: false 
+
+# Color scheme
+color_scheme: dark
+
+# Enable copy code buttons
+enable_copy_code_button: true
+
+# Collection configurations
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
