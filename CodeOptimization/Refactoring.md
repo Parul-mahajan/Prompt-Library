@@ -2,19 +2,28 @@
 
 ## Prompt 1: Identify Code Smells
 ```
-You are reviewing a codebase for potential refactoring. The codebase details are as follows:
+Use case: To help developers identify code smells during code reviews.
 
-Codebase Description: {codebase_description}
+Promp: You are reviewing a codebase for potential refactoring. The codebase details are as follows:
+
+Codebase_description: {codebase_description}
 
 Generate a list of code smells, including:
 - Duplicated code
 - Long methods
 - High cyclomatic complexity
-```
 
+Key points:
+1. Focus on identifying common code smells.
+2. Provide actionable suggestions for refactoring.
+3. Use standard tools and techniques for analysis.
+
+```
 ## Prompt 2: Refactor Code
 ```
-You are refactoring a piece of code to improve its readability and maintainability. The code snippet is as follows:
+Use case: To help developers identify code smells during code reviews. 
+
+Prompt:You are refactoring a piece of code to improve its readability and maintainability. The code snippet is as follows:
 
 Code Snippet: {code_snippet}
 

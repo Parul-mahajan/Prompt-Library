@@ -2,9 +2,9 @@
 
 ## Prompt 1: Creating Onboarding Guides
 ```
-Intent: To help developers create onboarding guides for new team members.
+Use Case: To help developers create onboarding guides for new team members.
 
-Context: You are onboarding a new developer to your project. The project details are as follows:
+Prompt: You are onboarding a new developer to your project. The project details are as follows:
 
 Project Name: {project_name}
 Technologies Used: {technologies_used}

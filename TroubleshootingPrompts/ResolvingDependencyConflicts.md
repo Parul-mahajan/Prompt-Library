@@ -2,9 +2,9 @@
 
 ## Prompt 1: Resolving Package Dependency Issues
 ```
-Intent: To help developers resolve conflicts between package dependencies.
+Use Case: To help developers resolve conflicts between package dependencies.
 
-Context: You are encountering dependency conflicts in a project. The project details are as follows:
+Prompt: You are encountering dependency conflicts in a project. The project details are as follows:
 
 Project_name: {project_name}
 Dependency_error: {dependency_error}

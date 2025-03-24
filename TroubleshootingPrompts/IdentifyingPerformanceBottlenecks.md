@@ -2,9 +2,9 @@
 
 ## Prompt 1: Analyzing Performance Issues
 ```
-Intent: To help developers identify performance bottlenecks in their code.
+Use Case: To help developers identify performance bottlenecks in their code.
 
-Context: You are diagnosing performance issues in an application. The application details are as follows:
+Prompt: You are diagnosing performance issues in an application. The application details are as follows:
 
 Application_name: {application_name}
 Performance_metrics: {performance_metrics}

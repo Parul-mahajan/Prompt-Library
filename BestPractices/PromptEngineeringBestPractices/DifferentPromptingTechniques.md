@@ -4,12 +4,14 @@
 This document explores various prompting techniques to achieve the same goal using different approaches. Understanding these techniques helps create more effective and versatile prompts.
 
 ## 1. Role-Based Prompting
+*Role-based prompting involves assigning a specific role to the AI to guide its responses based on the expertise of that role.*
 ```
 You are an experienced DevOps engineer with expertise in AWS infrastructure. 
 Create a plan for migrating a monolithic application to a microservices architecture on AWS.
 ```
 
 ## 2. Step-by-Step Prompting
+*Step-by-step prompting breaks down a task into sequential steps to ensure clarity and completeness in the response.*
 ```
 I need to migrate a monolithic application to a microservices architecture on AWS.
 1. First, analyze the current monolithic application structure
@@ -18,9 +20,10 @@ I need to migrate a monolithic application to a microservices architecture on AW
 4. Finally, create a migration timeline with minimal downtime
 ```
 
-## 3. Intent-Context-Task Prompting
+## 3. Use Case-Context-Task Prompting
+*This technique provides a clear use case, context, and task to guide the AI in generating a focused and relevant response.*
 ```
-Intent: To create a migration plan for a monolithic application to microservices on AWS.
+Use case: To create a migration plan for a monolithic application to microservices on AWS.
 
 Context: We have a monolithic Java application serving 10,000 users that has become difficult to maintain and scale.
 
@@ -32,6 +35,7 @@ Task: Create a detailed migration plan that includes:
 ```
 
 ## 4. Input-Output Format Specification
+*Input-output format specification defines the input details and expected output structure to ensure precise and structured responses.*
 ```
 I need a migration plan for converting a monolithic application to microservices on AWS.
 
@@ -50,6 +54,7 @@ Output format:
 ```
 
 ## 5. Few-Shot Prompting
+*Few-shot prompting provides examples to guide the AI in generating similar responses for new tasks.*
 ```
 I need to create migration plans for different applications. Here are two examples:
 
@@ -73,6 +78,7 @@ Now, create a similar migration plan for a monolithic Java application with 10,0
 ```
 
 ## 6. Chain-of-Thought Prompting
+*Chain-of-thought prompting encourages the AI to think through a problem step by step to arrive at a logical solution.*
 ```
 I need to migrate a monolithic Java application to microservices on AWS. Let's think through this step by step.
 
@@ -90,6 +96,7 @@ Based on this thinking, create a migration plan for this application.
 ```
 
 ## 7. Negative Prompting
+*Negative prompting specifies what the AI should avoid doing, helping to refine the response by eliminating undesired outcomes.*
 ```
 Create a migration plan for moving a monolithic Java application to microservices on AWS. 
 The plan should NOT:
@@ -100,6 +107,7 @@ The plan should NOT:
 ```
 
 ## 8. Persona-Based Prompting
+*Persona-based prompting tailors the response to a specific audience or persona, ensuring the output is relevant and understandable to them.*
 ```
 I'm a technical project manager with limited AWS knowledge. My team needs to migrate our monolithic Java application to microservices on AWS. 
 

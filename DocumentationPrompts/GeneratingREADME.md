@@ -2,9 +2,9 @@
 
 ## Prompt 1: Creating Project README
 ```
-Intent: To help developers create comprehensive README files for their projects.
+Use Case: To help developers create comprehensive README files for their projects.
 
-Context: You are creating a README file for a new project. The project details are as follows:
+Prompt: You are creating a README file for a new project. The project details are as follows:
 
 Project_name: {project_name}
 Project_description: {project_description}
@@ -15,26 +15,7 @@ Generate a README template, including:
 - Installation and setup instructions.
 - Usage examples and documentation.
 
-Example:
-Project_name: "Weather API Client"
-Project_description: "A client library for accessing weather data from multiple providers."
-Technologies_used: "Python, Requests, pytest"
 
-README Template:
-```markdown
-# Weather API Client
-
-A client library for accessing weather data from multiple providers.
-
-## Features
-- Support for multiple weather data providers
-- Simple, consistent API
-- Comprehensive error handling
-
-## Installation
-```bash
-pip install weather-api-client
-```
 
 ## Usage
 ```python

@@ -14,8 +14,7 @@ Context: Guide the implementation of performance improvements:
 ### Optimization Patterns
 
 1. **Algorithmic Optimization**
-```typescript
-/**
+
  * Optimize algorithm for:
  * Task: Data processing pipeline
  * Current complexity: O(n²)
@@ -24,38 +23,15 @@ Context: Guide the implementation of performance improvements:
  * - Memory usage
  * - Data consistency
  * - Error handling
- */
-class DataProcessor {
-    process_data_batch(items: DataItem[]): ProcessedResult[] {
-        // Copilot will suggest optimized implementation
-    }
-}
-```
 
 2. **Resource Management**
-```typescript
-/**
+
  * Implement efficient resource handling:
  * - Memory pooling
  * - Connection management
  * - Batch processing
  * - Resource cleanup
- */
-class ResourceManager {
-    private resource_pool: Map<string, Resource>;
-    
-    async acquire_resource<T extends Resource>(
-        resource_type: string,
-        options: {
-            max_pool_size: number;
-            idle_timeout_ms: number;
-            validation_fn: (resource: T) => boolean;
-        }
-    ): Promise<T> {
-        // Copilot will suggest efficient implementation
-    }
-}
-```
+
 
 ### Performance Patterns
 
@@ -63,23 +39,12 @@ class ResourceManager {
 ```typescript
 /**
  * Implement multi-level caching:
- * - Memory cache
+* - Memory cache
  * - Distributed cache
  * - Cache invalidation
  * - Cache warming
  */
-class CacheManager {
-    private memory_cache: Map<string, CacheEntry>;
-    private distributed_cache: DistributedCache;
-    
-    async get_or_compute<T>(
-        key: string,
-        computer: () => Promise<T>,
-        options: CacheOptions
-    ): Promise<T> {
-        // Copilot will suggest efficient caching implementation
-    }
-}
+
 ```
 
 2. **Load Handling**
@@ -91,18 +56,6 @@ class CacheManager {
  * - Load shedding
  * - Back pressure
  */
-class LoadManager {
-    async handle_request<T>(
-        request: () => Promise<T>,
-        options: {
-            max_concurrent: number;
-            timeout_ms: number;
-            retry_strategy: RetryStrategy;
-        }
-    ): Promise<T> {
-        // Copilot will suggest efficient load handling
-    }
-}
 ```
 
 ### Data Structure Optimization
@@ -116,14 +69,7 @@ class LoadManager {
  * - Concurrent operations
  * - Bulk operations
  */
-class OptimizedCollection<T> {
-    private data: Map<string, T>;
-    private indexes: Map<string, Map<any, Set<string>>>;
-    
-    bulk_insert(items: T[]): void {
-        // Copilot will suggest efficient implementation
-    }
-}
+
 ```
 
 2. **Memory Management**
@@ -135,17 +81,7 @@ class OptimizedCollection<T> {
  * - Reference management
  * - Garbage collection hints
  */
-class MemoryOptimizer {
-    private object_pool: Map<string, any[]>;
-    
-    acquire_from_pool<T>(
-        pool_key: string,
-        factory: () => T,
-        options: PoolOptions
-    ): T {
-        // Copilot will suggest efficient implementation
-    }
-}
+
 ```
 
 ### Query Optimization
@@ -159,14 +95,7 @@ class MemoryOptimizer {
  * - Join optimization
  * - Batch operations
  */
-class QueryOptimizer {
-    optimize_query(
-        query: DatabaseQuery,
-        context: QueryContext
-    ): OptimizedQuery {
-        // Copilot will suggest optimizations
-    }
-}
+
 ```
 
 2. **Data Access Patterns**
@@ -178,18 +107,7 @@ class QueryOptimizer {
  * - Streaming
  * - Partial loading
  */
-class DataAccessManager {
-    async fetch_data<T>(
-        query: DataQuery,
-        options: {
-            page_size: number;
-            eager_load: string[];
-            stream_threshold: number;
-        }
-    ): Promise<DataResult<T>> {
-        // Copilot will suggest efficient implementation
-    }
-}
+
 ```
 
 ### Performance Monitoring
@@ -203,17 +121,7 @@ class DataAccessManager {
  * - Error rates
  * - System health
  */
-class PerformanceMonitor {
-    private metrics: Map<string, Metric>;
-    
-    track_operation<T>(
-        operation_name: string,
-        operation: () => Promise<T>,
-        thresholds: MetricThresholds
-    ): Promise<T> {
-        // Copilot will suggest implementation
-    }
-}
+
 ```
 
 2. **Performance Analysis**
@@ -225,14 +133,6 @@ class PerformanceMonitor {
  * - Anomaly detection
  * - Capacity planning
  */
-class PerformanceAnalyzer {
-    analyze_metrics(
-        metrics: MetricData[],
-        options: AnalysisOptions
-    ): PerformanceReport {
-        // Copilot will suggest implementation
-    }
-}
 ```
 
 ### Best Practices
@@ -246,13 +146,6 @@ class PerformanceAnalyzer {
  * - Code splitting
  * - Tree shaking
  */
-class ModuleManager {
-    optimize_imports(
-        module_config: ModuleConfig
-    ): OptimizedModules {
-        // Copilot will suggest implementation
-    }
-}
 ```
 
 2. **Runtime Optimization**
@@ -264,14 +157,6 @@ class ModuleManager {
  * - Memory management
  * - Event loop optimization
  */
-class RuntimeOptimizer {
-    optimize_execution(
-        task: AsyncTask,
-        resources: SystemResources
-    ): OptimizedTask {
-        // Copilot will suggest implementation
-    }
-}
 ```
 
 ### Anti-patterns to Avoid
@@ -299,14 +184,7 @@ class RuntimeOptimizer {
  * - Endurance testing
  * - Capacity testing
  */
-class PerformanceTest {
-    async run_load_test(
-        scenario: TestScenario,
-        options: LoadTestOptions
-    ): Promise<TestResults> {
-        // Copilot will suggest implementation
-    }
-}
+
 ```
 
 2. **Benchmarking**
@@ -318,12 +196,4 @@ class PerformanceTest {
  * - Comparative analysis
  * - Regression testing
  */
-class Benchmarker {
-    run_benchmark(
-        test_case: BenchmarkCase,
-        options: BenchmarkOptions
-    ): BenchmarkResults {
-        // Copilot will suggest implementation
-    }
-}
 ```

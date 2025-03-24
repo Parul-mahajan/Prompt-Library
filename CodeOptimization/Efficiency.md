@@ -4,7 +4,7 @@
 ```
 You are optimizing an algorithm to improve its efficiency. The algorithm details are as follows:
 
-Algorithm Description: {algorithm_description}
+Algorithm Description: {algorithm_description} #alogirithm description
 
 Generate a list of optimizations, including:
 - Reducing time complexity

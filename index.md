@@ -10,11 +10,36 @@ A comprehensive collection of prompts and best practices for different roles in 
 
 ## Quick Navigation
 
-- [🛠 Developer Resources](Developer/Development.html)
-- [🎨 Designer Guidelines](Designer/Design.html)
-- [📊 Product Manager Tools](ProductManager/Requirements.html)
-- [🔍 Tester Frameworks](Tester/Testing.html)
-- [🚀 DevOps Practices](DevOpsEngineer/CICDPipelineConfiguration.html)
+- **Developer Resources**
+  - [Development](Developer/Development.html)
+  - [Design](Developer/Design.html)
+  - [Testing](Developer/Testing.html)
+  - [Deployment](Developer/Deployment.html)
+  - [Maintenance](Developer/Maintenance.html)
+- **Designer Guidelines**
+  - [Design](Designer/Design.html)
+  - [Development](Designer/Development.html)
+  - [Testing](Designer/Testing.html)
+  - [Deployment](Designer/Deployment.html)
+  - [Maintenance](Designer/Maintenance.html)
+- **Product Manager Tools**
+  - [Requirements](ProductManager/Requirements.html)
+  - [Design](ProductManager/Design.html)
+  - [Testing](ProductManager/Testing.html)
+  - [Deployment](ProductManager/Deployment.html)
+  - [Maintenance](ProductManager/Maintenance.html)
+- **Tester Frameworks**
+  - [Requirements](Tester/Requirements.html)
+  - [Design](Tester/Design.html)
+  - [Testing](Tester/Testing.html)
+  - [Deployment](Tester/Deployment.html)
+  - [Maintenance](Tester/Maintenance.html)
+- **DevOps Practices**
+  - [CI/CD Pipeline Configuration](DevOpsEngineer/CICDPipelineConfiguration.html)
+  - [Design](DevOpsEngineer/Design.html)
+  - [Testing](DevOpsEngineer/Testing.html)
+  - [Deployment](DevOpsEngineer/Deployment.html)
+  - [Maintenance](DevOpsEngineer/Maintenance.html)
 
 ## Getting Started
 
