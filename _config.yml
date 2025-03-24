@@ -30,12 +30,14 @@ search:
 # Navigation
 nav:
   - title: AI/ML Development
+    url: /AI_MLDevelopment/
     children:
       - title: Preprocessing Data
         url: /AI_MLDevelopment/PreprocessingData
       - title: Writing Training Scripts
         url: /AI_MLDevelopment/WritingTrainingScripts
   - title: Best Practices
+    url: /BestPractices/
     children:
       - title: Code Review Best Practices
         url: /BestPractices/CodeReviewBestPractices/
@@ -44,6 +46,7 @@ nav:
       - title: Security Best Practices
         url: /BestPractices/SecurityBestPractices/
   - title: Code Optimization
+    url: /CodeOptimization/
     children:
       - title: Efficiency
         url: /CodeOptimization/Efficiency
@@ -54,6 +57,7 @@ nav:
       - title: Refactoring
         url: /CodeOptimization/Refactoring
   - title: Designer Resources
+    url: /Designer/
     children:
       - title: Design
         url: /Designer/Design
@@ -66,6 +70,7 @@ nav:
       - title: Maintenance
         url: /Designer/Maintenance
   - title: Developer Resources
+    url: /Developer/
     children:
       - title: Design
         url: /Developer/Design
@@ -78,6 +83,7 @@ nav:
       - title: Maintenance
         url: /Developer/Maintenance
   - title: DevOps Practices
+    url: /DevOpsEngineer/
     children:
       - title: CI/CD Pipeline Configuration
         url: /DevOpsEngineer/CICDPipelineConfiguration
@@ -90,6 +96,7 @@ nav:
       - title: Maintenance
         url: /DevOpsEngineer/Maintenance
   - title: Documentation Prompts
+    url: /DocumentationPrompts/
     children:
       - title: Documenting Code with Inline Comments
         url: /DocumentationPrompts/DocumentingCodeWithInlineComments
@@ -98,6 +105,7 @@ nav:
       - title: Writing API Documentation
         url: /DocumentationPrompts/WritingAPIDocumentation
   - title: Learning Resources
+    url: /LearningResources/
     children:
       - title: Explaining Complex Code Snippets
         url: /LearningResources/ExplainingComplexCodeSnippets
@@ -106,6 +114,7 @@ nav:
       - title: Onboarding New Team Members
         url: /LearningResources/OnboardingNewTeamMembers
   - title: Product Manager Tools
+    url: /ProductManager/
     children:
       - title: Requirements
         url: /ProductManager/Requirements
@@ -118,6 +127,7 @@ nav:
       - title: Maintenance
         url: /ProductManager/Maintenance
   - title: Stored Procedures
+    url: /StoredProcedures/
     children:
       - title: Creating
         url: /StoredProcedures/Creating
@@ -126,12 +136,14 @@ nav:
       - title: Optimizing
         url: /StoredProcedures/Optimizing
   - title: Testing
+    url: /Testing/
     children:
       - title: Tester Resources
         url: /Testing/Tester/Testing
       - title: Testing Enhancements
         url: /Testing/TestingEnhancements/AutomationManualTestCases
   - title: Troubleshooting Prompts
+    url: /TroubleshootingPrompts/
     children:
       - title: Debugging Runtime Errors
         url: /TroubleshootingPrompts/DebuggingRuntimeErrors

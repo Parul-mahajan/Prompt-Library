@@ -6,7 +6,7 @@ nav_order: 1
 
 <style>
   body {
-    padding-top: 20px;
+    padding-top: 40px;
   }
 </style>
 
