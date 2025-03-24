@@ -6,7 +6,7 @@ url: https://Parul-mahajan.github.io/Prompt-Library
 
 aux_links:
   "View on GitHub":
-    - "//github.com/Parul-mahajan/Prompt-Library"
+    - "https://github.com/Parul-mahajan/Prompt-Library"
 
 # Enable search
 search_enabled: true
@@ -25,7 +25,7 @@ search:
 # Navigation
 nav_external_links:
   - title: GitHub Repository
-    url: https://github.com/your-username/Prompt-Library
+    url: https://github.com/Parul-mahajan/Prompt-Library
     hide_icon: false 
 
 # Color scheme
