@@ -28,6 +28,121 @@ search:
   button: true
 
 # Navigation
+nav:
+  - title: AI/ML Development
+    children:
+      - title: Preprocessing Data
+        url: /AI_MLDevelopment/PreprocessingData
+      - title: Writing Training Scripts
+        url: /AI_MLDevelopment/WritingTrainingScripts
+  - title: Best Practices
+    children:
+      - title: Code Review Best Practices
+        url: /BestPractices/CodeReviewBestPractices/AdherenceToStandards
+      - title: Prompt Engineering Best Practices
+        url: /BestPractices/PromptEngineeringBestPractices/CopilotChatPatterns
+      - title: Security Best Practices
+        url: /BestPractices/SecurityBestPractices/IdentifyingSecurityVulnerabilities
+  - title: Code Optimization
+    children:
+      - title: Efficiency
+        url: /CodeOptimization/Efficiency
+      - title: Performance Bottlenecks
+        url: /CodeOptimization/PerformanceBottlenecks
+      - title: Performance Optimization Patterns
+        url: /CodeOptimization/PerformanceOptimizationPatterns
+      - title: Refactoring
+        url: /CodeOptimization/Refactoring
+  - title: Designer Resources
+    children:
+      - title: Design
+        url: /Designer/Design
+      - title: Development
+        url: /Designer/Development
+      - title: Testing
+        url: /Designer/Testing
+      - title: Deployment
+        url: /Designer/Deployment
+      - title: Maintenance
+        url: /Designer/Maintenance
+  - title: Developer Resources
+    children:
+      - title: Design
+        url: /Developer/Design
+      - title: Development
+        url: /Developer/Development
+      - title: Testing
+        url: /Developer/Testing
+      - title: Deployment
+        url: /Developer/Deployment
+      - title: Maintenance
+        url: /Developer/Maintenance
+  - title: DevOps Practices
+    children:
+      - title: CI/CD Pipeline Configuration
+        url: /DevOpsEngineer/CICDPipelineConfiguration
+      - title: Design
+        url: /DevOpsEngineer/Design
+      - title: Testing
+        url: /DevOpsEngineer/Testing
+      - title: Deployment
+        url: /DevOpsEngineer/Deployment
+      - title: Maintenance
+        url: /DevOpsEngineer/Maintenance
+  - title: Documentation Prompts
+    children:
+      - title: Documenting Code with Inline Comments
+        url: /DocumentationPrompts/DocumentingCodeWithInlineComments
+      - title: Generating README
+        url: /DocumentationPrompts/GeneratingREADME
+      - title: Writing API Documentation
+        url: /DocumentationPrompts/WritingAPIDocumentation
+  - title: Learning Resources
+    children:
+      - title: Explaining Complex Code Snippets
+        url: /LearningResources/ExplainingComplexCodeSnippets
+      - title: Generating Tutorials
+        url: /LearningResources/GeneratingTutorials
+      - title: Onboarding New Team Members
+        url: /LearningResources/OnboardingNewTeamMembers
+  - title: Product Manager Tools
+    children:
+      - title: Requirements
+        url: /ProductManager/Requirements
+      - title: Design
+        url: /ProductManager/Design
+      - title: Testing
+        url: /ProductManager/Testing
+      - title: Deployment
+        url: /ProductManager/Deployment
+      - title: Maintenance
+        url: /ProductManager/Maintenance
+  - title: Stored Procedures
+    children:
+      - title: Creating
+        url: /StoredProcedures/Creating
+      - title: Debugging
+        url: /StoredProcedures/Debugging
+      - title: Optimizing
+        url: /StoredProcedures/Optimizing
+  - title: Testing
+    children:
+      - title: Tester Resources
+        url: /Testing/Tester/Testing
+      - title: Testing Enhancements
+        url: /Testing/TestingEnhancements/AutomationManualTestCases
+  - title: Troubleshooting Prompts
+    children:
+      - title: Debugging Runtime Errors
+        url: /TroubleshootingPrompts/DebuggingRuntimeErrors
+      - title: Error Handling Patterns
+        url: /TroubleshootingPrompts/ErrorHandlingPatterns
+      - title: Identifying Performance Bottlenecks
+        url: /TroubleshootingPrompts/IdentifyingPerformanceBottlenecks
+      - title: Resolving Dependency Conflicts
+        url: /TroubleshootingPrompts/ResolvingDependencyConflicts
+
+# Navigation
 nav_external_links:
   - title: GitHub Repository
     url: https://github.com/Parul-mahajan/Prompt-Library
