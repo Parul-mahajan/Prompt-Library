@@ -2,6 +2,8 @@ site_name: Prompt Library
 site_description: A comprehensive library of prompts for AI and development
 site_author: Cognizant
 repo_url: https://github.com/Parul-mahajan/Prompt-Library
+site_url: https://parul-mahajan.github.io/Prompt-Library/
+edit_uri: edit/main/
 theme:
   name: material
   palette:
@@ -31,7 +33,7 @@ theme:
 markdown_extensions:
   - admonition
   - codehilite
-- pymdownx.h    repo_url: https://github.com/Parul-mahajan/Prompt-Library
+  - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.tabbed
