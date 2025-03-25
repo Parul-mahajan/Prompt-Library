@@ -1,3 +1,9 @@
+---
+title: Preprocessing Data
+parent: AI/ML Development
+nav_order: 1
+---
+
 # Basic Data Preprocessing with GitHub Copilot
 
 ## Prompt 1: Simple Data Preprocessing Steps

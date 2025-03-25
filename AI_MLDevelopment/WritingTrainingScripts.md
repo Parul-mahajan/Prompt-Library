@@ -27,5 +27,3 @@ Key points:
 2. Focus on basic pipeline components: data loading, model definition, training loop, evaluation.
 3. Use standard libraries like PyTorch, TensorFlow, or scikit-learn.
 4. Avoid complex custom implementations.`
-
-```

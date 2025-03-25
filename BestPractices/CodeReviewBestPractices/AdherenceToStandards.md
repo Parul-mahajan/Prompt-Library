@@ -25,5 +25,4 @@ Key points:
 3. Use examples to illustrate best practices.
 
 or give reference to the project's coding standards document #coding standards.md
-
 ```
