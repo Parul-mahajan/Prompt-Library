@@ -1,0 +1,33 @@
+/* Custom CSS for tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border: 1px solid var(--md-default-bg-color--lighter);
+}
+
+table th {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: var(--md-default-bg-color--lightest);
+}
+
+table tr:nth-child(odd) {
+  background-color: var(--md-default-bg-color--lighter);
+}
+
+table tr:hover {
+  background-color: var(--md-default-bg-color--light);
+  color: var(--md-default-fg-color);
+}
+
