@@ -1,8 +1,4 @@
----
-title: Git Integration Practices
-parent: Prompt Engineering Best Practices
-nav_order: 2
----
+
 
 # Git Integration Practices with GitHub Copilot
 

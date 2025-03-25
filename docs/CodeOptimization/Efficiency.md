@@ -1,9 +1,3 @@
----
-title: Efficiency
-parent: Code Optimization
-nav_order: 1
----
-
 # Code Optimization - Efficiency
 
 ## Prompt 1: Optimize Algorithm Efficiency
